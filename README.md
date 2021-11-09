@@ -40,4 +40,4 @@ Outliers
   
 Потребление памяти
 
- 
+![SpanVsStringMemory](https://user-images.githubusercontent.com/23265895/140976184-3351cd5c-fbbf-4ea4-be31-23e64efc8692.JPG) 
