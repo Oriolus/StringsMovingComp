@@ -9,7 +9,9 @@
 Бенчмарк в классе WriteBenchmark
 
 BenchmarkDotNet=v0.13.1, OS=Windows 10.0.19043.1288 (21H1/May2021Update)
+
 Intel Core i5-8250U CPU 1.60GHz (Kaby Lake R), 1 CPU, 8 logical and 4 physical cores
+
 .NET SDK=5.0.402
   [Host]     : .NET Core 3.1.20 (CoreCLR 4.700.21.47003, CoreFX 4.700.21.47101), X64 RyuJIT
   DefaultJob : .NET Core 3.1.20 (CoreCLR 4.700.21.47003, CoreFX 4.700.21.47101), X64 RyuJIT
@@ -26,17 +28,26 @@ Intel Core i5-8250U CPU 1.60GHz (Kaby Lake R), 1 CPU, 8 logical and 4 physical c
 
 // * Hints *
 Outliers
+
   WriteBenchmark.WriteWithStringHolder: Default -> 3 outliers were removed (11.26 ms..11.28 ms)
+  
   WriteBenchmark.WriteWithSpanWriter: Default   -> 2 outliers were removed, 3 outliers were detected (11.47 ms, 11.52 ms, 11.52 ms)
+  
   WriteBenchmark.WriteWithStringHolder: Default -> 2 outliers were removed (22.13 ms, 30.24 ms)
+  
   WriteBenchmark.WriteWithSpanWriter: Default   -> 2 outliers were removed (228.18 ms, 228.24 ms)
 
 // * Legends *
   WordsSize : Value of the 'WordsSize' parameter
+  
   Mean      : Arithmetic mean of all measurements
+  
   Error     : Half of 99.9% confidence interval
+  
   StdDev    : Standard deviation of all measurements
+  
   Allocated : Allocated memory per single operation (managed only, inclusive, 1KB = 1024B)
+  
   1 ms      : 1 Millisecond (0.001 sec)
   
   
